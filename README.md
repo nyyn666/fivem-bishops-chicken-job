@@ -5,6 +5,7 @@
 <br>
 Preview: https://www.youtube.com/watch?v=Tz3fiVz_8_U
 <br>
+<br>
 <b>FiveM Bishop's Chicken Job</b>
 <br>
 ABY DZIAŁAŁO MUSISZ MIEĆ TO MLO: https://github.com/nyyn666/fivem-bishops-chicken-mlo
@@ -17,3 +18,7 @@ ABY DZIAŁAŁO MUSISZ MIEĆ TO MLO: https://github.com/nyyn666/fivem-bishops-chi
 Zmiana wypłaty:
 <br>
 Aby zmienić wypłatę wejdź w server.lua - 150 linijka - math.random(1,2) | losuje wynagrodzenie między 1 a 2. np. math.random(900,1000) - wylosuje wynagrodzenie od 900$ do 1000$.
+<br>
+W pliku znajdziesz jeszcze model auta pokazany na filmie.
+<br>
+W razie problemów pisz na discordzie. Znajdziesz go w moim README.md na github.com/nyyn666
