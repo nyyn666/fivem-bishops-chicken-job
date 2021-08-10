@@ -19,6 +19,8 @@ Zmiana wypłaty:
 <br>
 Aby zmienić wypłatę wejdź w server.lua - 150 linijka - math.random(1,2) | losuje wynagrodzenie między 1 a 2. np. math.random(900,1000) - wylosuje wynagrodzenie od 900$ do 1000$.
 <br>
+<br>
 W pliku znajdziesz jeszcze model auta pokazany na filmie.
+<br>
 <br>
 W razie problemów pisz na discordzie. Znajdziesz go w moim README.md na github.com/nyyn666
