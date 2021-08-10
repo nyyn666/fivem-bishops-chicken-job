@@ -2,8 +2,6 @@ ESX = nil
 local PlayersTransforming  = {}
 local PlayersSelling       = {}
 local PlayersHarvesting = {}
-local weabhook = ""
-local chleb = 1
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 if Config.MaxInService ~= -1 then
@@ -150,21 +148,4 @@ AddEventHandler('nyyn_bishops:startSell3', function(zone)
     local reward = math.random(900,1000)
     xPlayer.removeInventoryItem('kurczak2', 1)
     xPlayer.addMoney(reward)
-    logi(xPlayer.name.." sprzedał kurczaki za $" .. reward)
 end)
-
-function logi(text)
-	print(name, message, footer)
-	local embed = {
-		{
-			["color"] = 49151,
-			["title"] = "bishops",
-			["description"] = text,
-			["footer"] = {
-				["text"] = os.date() .. " | bishops",
-			},
-		}
-	}
-  
-	PerformHttpRequest(Config.weabhook, function(err, text, headers) end, 'POST', json.encode({username = 'bishops', embeds = embed}), { ['Content-Type'] = 'application/json' })
-end
