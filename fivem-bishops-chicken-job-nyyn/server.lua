@@ -145,7 +145,7 @@ AddEventHandler('nyyn_bishops:startSell3', function(zone)
     local xPlayer  = ESX.GetPlayerFromId(source)
 
     Citizen.Wait(10000)
-    local reward = math.random(900,1000)
+    local reward = math.random(500,1000)
     xPlayer.removeInventoryItem('kurczak2', 1)
     xPlayer.addMoney(reward)
 end)
